@@ -1,0 +1,28 @@
+---
+import Badge from "./Badge.astro"
+import Strong from "../assets/Strong.astro"
+import Button from "./Button.astro"
+---
+<main class="max-w-[800px] my-24 ">
+    <div id="Card" class="flex items-center gap-4">
+        <img class="w-16 h-16 rounded-full" src="/public/FaceBook.jpg" alt="Rounded avatar">
+        <Badge>
+            Ready For Work
+        </Badge>
+    </div>
+    <h1 class="text-4xl font-bold my-4">Hi, I'm David Pardo</h1>
+    <p class="text-left mt-4 w-auto text-2xl">
+        <Strong>Web Developer</Strong> with 3+ years of experience in <Strong>JavaScript frameworks</Strong> and Full-Stack development, 
+        specializing in React, Next.js, NestJS, and Agile collaboration.    
+    </p>
+    <section class="flex gap-4 mt-4">
+        <Button href="mailto:maildavidtrabajo@gmail.com">
+            <img src="./SendMail.svg" alt="Contact me">
+            Contact Me
+        </Button>
+        <Button href="https://www.linkedin.com/in/davidpardocazadilla/">
+            <img src="./LinkedIn.svg" alt="LinkedIn logo">
+            LinkedIn
+        </Button>
+    </section>
+</main>
