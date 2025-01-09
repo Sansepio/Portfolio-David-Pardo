@@ -5,8 +5,8 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://sansepio.github.io',
-  base: 'astro_github_pages_ejemplo',
+  site: 'https://Sansepio.github.io',
+  base: 'portfolio_david_pardo',
   integrations: [tailwind()]
 });
 
